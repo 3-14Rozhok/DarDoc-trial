@@ -1,8 +1,9 @@
-import styles from '../styles/Home.module.css'
+import Home from '../components/Home'
 
-export default function Home() {
-  return (
-    <div className={styles.container}>
-    </div>
-  )
+const HomePage = () => {
+    return (
+        <Home />
+    )
 }
+
+export default HomePage
