@@ -9,7 +9,7 @@ const OrderTable = () => {
             <div className="id-cell-id">{value.id}</div>
             <div className="id-cell-date">{value.date}</div>
             <div className="id-cell-patient">{value.patient}</div>
-            <input type="checkbox" className="id-cell-checked" onClick={() => {}} />
+            {/* <input type="checkbox" className="id-cell-checked" onClick={() => {}} /> */}
         </div>
     }
     function DetailsCell({ value }) {

@@ -40,8 +40,12 @@ td {
     background-color: white;
 }
 
-thead, thead > tr, thead > tr > th {
+thead {
     height: 48px;
+}
+
+thead {
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 th {
