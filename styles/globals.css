@@ -1,13 +1,13 @@
-@import "./home.css";
-@import "./layout.css";
+@import "./home.module.css";
+@import "./layout.module.css";
 
 @font-face {
     font-family: "55Roman";
     src: url("55Roman.otf") format("opentype");
 }
 
-html,
-body {
+html, 
+sbody {
   padding: 0;
   margin: 0;
   font-family: "55Roman", Arial, sans-serif;
