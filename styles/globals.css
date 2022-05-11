@@ -1,11 +1,16 @@
-@import './Home.css';
+@import "./home.css";
+@import "./layout.css";
+
+@font-face {
+    font-family: "55Roman";
+    src: url("55Roman.otf") format("opentype");
+}
 
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: "55Roman", Arial, sans-serif;
 }
 
 a {
@@ -15,4 +20,30 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+table {
+    display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    text-indent: initial;
+    /* border-color: rgba(0, 0, 0, 0); */
+    border-spacing: 0px 17px;
+}
+
+tr {
+    border-radius: 6px;
+}
+
+td {
+    margin-bottom: 10px;
+    background-color: white;
+}
+
+thead, thead > tr, thead > tr > th {
+    height: 48px;
+}
+
+th {
+    background-color: white;
 }

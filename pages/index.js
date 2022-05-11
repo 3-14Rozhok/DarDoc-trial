@@ -1,8 +1,11 @@
-import Home from '../components/Home'
+import Home from "../components/Home"
+import PageLayout from "../components/PageLayout"
 
 const HomePage = () => {
     return (
-        <Home />
+        <PageLayout>
+            <Home />
+        </PageLayout>
     )
 }
 

@@ -1,3 +1,286 @@
-.kek {
-    color: red;
+.home-page {
+    display: flex;
+    flex-direction: column;
+    width: 1600px;
+}
+
+.table-container {
+    margin-left: 70px;
+}
+
+.table-row {
+    height: 152px;
+    width: 1530px;
+    border-radius: 6px;
+    padding-bottom: 10px;
+    border-bottom: 17px;
+}
+
+td { border: solid 0px #000; }
+tr { border-top-left-radius: 6px; }
+tr { border-top-right-radius: 6px; }
+tr { border-bottom-left-radius: 6px; }
+tr { border-bottom-right-radius: 6px; }
+td:first-child { border-bottom-left-radius: 6px; }
+td:first-child { border-top-left-radius: 6px; }
+td:last-child { border-top-right-radius: 6px; }
+td:last-child { border-bottom-right-radius: 6px; }
+th:first-child{ border-bottom-left-radius: 6px; border-top-left-radius: 6px; }
+th:last-child{ border-bottom-right-radius: 6px; border-top-right-radius: 6px; }
+
+.id-cell {
+    position: relative;
+    width: 238px;
+    height: 152px;
+}
+
+.id-cell-id {
+    position: absolute;
+    top: 30px;
+    left: 57px;
+}
+
+.id-cell-date {
+    position: absolute;
+    top: 57px;
+    left: 57px;
+    color: #13131399;
+}
+
+.id-cell-patient {
+    position: absolute;
+    top: 114px;
+    left: 57px;
+}
+
+.id-cell-checked {
+    position: absolute;
+    top: 30px;
+    left: -40px;
+    border: 2px solid #25BCBD;
+    border-radius: 2px;
+    background: transparent;
+}
+
+.details-cell {
+    position: relative;
+    width: 439px;
+    height: 152px;
+}
+
+.details-name {
+    position: absolute;
+    top: 30px;
+    left: 0px;
+    font-size: 18px;
+}
+
+.details-tel {
+    position: absolute;
+    top: 64px;
+    left: 0px;
+    color: #13131399;
+}
+
+.details-button {
+    position: absolute;
+    width: 159px;
+    height: 38px;
+    padding-top: 9px;
+    padding-left: 32px;
+    border: 1px solid #25BCBD;
+    top: 95px;
+    left: 0px;
+    border-radius: 18px;
+    color: #25BCBD;
+    cursor: pointer;
+}
+
+.service-cell {
+    position: relative;
+    width: 251px;
+    height: 152px;
+}
+
+.service-covid {
+    position: absolute;
+    top: 30px;
+}
+
+.service-type {
+    position: absolute;
+    top: 60px;
+    color: #108E95;
+    font-weight: 800;
+}
+
+.date-cell {
+    position: relative;
+    width: 248px;
+    height: 152px;
+}
+
+.date-date {
+    position: absolute;
+    top: 30px;
+}
+
+.date-time {
+    position: absolute;
+    top: 60px;
+}
+
+.date-timer {
+    position: absolute;
+    top: 94px;
+    left: 34px;
+    color: #108E95;
+    font-weight: 800;
+}
+
+.date-svg {
+    position: relative;
+    top: 89px;
+    left: 0px;
+    width: 28px;
+    height: 28px;
+    border: 1px solid #25BCBD;
+    border-radius: 20px;
+}
+
+.date-svg > img {
+    position: absolute;
+    top: 6px;
+    left: 7px;
+}
+
+.location-cell {
+    position: relative;
+    width: 222px;
+    height: 152px;
+}
+
+.location-city {
+    position: absolute;
+    top: 29px;
+    font-size: 18px;
+}
+
+.location-adr {
+    position: absolute;
+    top: 48px;
+    width: 120px;
+    color: #13131399;
+}
+
+.action-cell {
+    position: relative;
+    width: 120px;
+    height: 152px;
+}
+
+.action-accept {
+    position: absolute;
+    top: 30px;
+    width: 80px;
+    height: 33px;
+    background: #46B644;
+    border-radius: 18px;
+    color: white;
+    padding-top: 7px;
+    padding-left: 14px;
+    cursor: pointer;
+}
+
+.action-reject {
+    position: absolute;
+    top: 84px;
+    width: 80px;
+    height: 33px;
+    border: 2px solid #FE3D3D;
+    border-radius: 18px;
+    padding-top: 5px;
+    padding-left: 14px;
+    cursor: pointer;
+    color: #FE3D3D;
+}
+
+.id-header {
+    font-size: 18px;
+    color: #008690;
+    margin-right: 40px;
+}
+
+.details-header {
+    font-size: 18px;
+    color: #008690;
+    margin-right: 100px;
+}
+
+.service-header {
+    font-size: 18px;
+    color: #008690;
+    margin-right: 50px;
+}
+
+.date-header {
+    font-size: 18px;
+    color: #008690;
+    margin-right: 80px;
+}
+
+.location-header {
+    font-size: 18px;
+    color: #008690;
+    margin-right: 50px;
+}
+
+.action-header {
+    font-size: 18px;
+    color: #008690;
+    margin-right: 50px;
+}
+
+.table-sorter {
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 70px;
+}
+
+.booking-counter {
+    width: 35px;
+    height: 35px;
+    border-radius: 20px;
+    margin-left: 67px;
+    margin-top: 6px;
+    padding-top: 8px;
+    padding-left: 8px;
+    font-size: 17px;
+    font-weight: 800;
+    color: white;
+    background: #008690;
+}
+
+.divider {
+    width: 835px;
+    height: 2px;
+    background: #0086904D;
+    margin-left: 65px;
+    margin-top: 24px;
+}
+
+select {
+    width: 270px;
+    height: 50px;
+    margin-left: 65px;
+    background: white;
+    color: rgba(19, 19, 19, 0.3);
+    border: 1px solid #008690;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+select option {
+    color: #131313;
 }
